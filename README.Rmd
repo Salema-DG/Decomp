@@ -18,19 +18,21 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Decomp is to ...
+This package provides a function that decomposes the effects of multiple covariates on a variable of interest in the logit model.
 
 ## Installation
 
-You can install the development version of Decomp like so:
+To install the development version of Decomp, type in `R`:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("devtools") # only if devtools is not installed
+library(devtools)
+devtools::install_github("Salema-DG/Decomp")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example using data from...
 
 ```{r example}
 library(Decomp)
