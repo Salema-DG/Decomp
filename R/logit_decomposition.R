@@ -7,6 +7,14 @@
 #' @param ...
 #'
 #' @return A tibble with the with the contribution of each covariate to the change of the structural coefficient.
+#' @import stringr,
+#' @import dplyr,
+#' @import magrittr,
+#' @import rlang,
+#' @import purrr,
+#' @import CovTools,
+#' @import colorDF,
+#' @import tidyr
 #' @export
 #'
 #' @examples
