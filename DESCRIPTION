@@ -1,0 +1,22 @@
+Package: Decomp
+Type: Package
+Title: Covariate Decomposition in the Logit Model
+Version: 0.1.0
+Authors@R: person("Miguel", "Salema", email = "misalema@ucp.pt",
+                  role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package provides a function that decomposes the effects of multiple covariates on a variable of interest in the logit model. You provide the data, specify the dependent variable, the structural variable and the other covariates. The function gives an output table with the contribution of each covariate to the change of the structural coefficient. 
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.1)
+Imports:
+    stringr,
+    dplyr,
+    magrittr,
+    rlang,
+    purrr,
+    CovTools,
+    colorDF,
+    tidyr
+RoxygenNote: 7.2.1
